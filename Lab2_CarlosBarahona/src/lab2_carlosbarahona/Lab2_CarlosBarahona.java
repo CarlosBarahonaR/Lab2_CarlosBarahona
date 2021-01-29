@@ -25,7 +25,7 @@ public class Lab2_CarlosBarahona {
         int opcion = 0;
         String usuario = JOptionPane.showInputDialog("Ingrese su usuario");
         String contraseña = JOptionPane.showInputDialog("Ingrese su contraseña");
-        if (usuario == "david" && contraseña == "99") {
+        if ("david".equals(usuario) || "99".equals(contraseña)) {
 
             while (opcion != 3) {
                 opcion = Integer.parseInt(
